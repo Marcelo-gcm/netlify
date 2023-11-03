@@ -1,0 +1,28 @@
+.container{
+  border: solid 1px red;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  width: 100%;
+}
+aside{
+  border: solid 1px black;
+  margin-top: 5px;
+  color: #fff;
+  height: 40vh;
+  display: grid;
+  justify-content: center;
+}
+main{
+  border: dotted 3.5px green;
+  color: #fff;
+  width: 100%;
+  height: 40vh;
+  display: grid;
+  justify-content:center ;
+}
+@media(max-width:768px){
+  .container{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
