@@ -5,6 +5,17 @@
   grid-gap: 10px;
   width: 100%;
 }
+.container-grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+}
+.div-container{
+  width: 100px;
+  height: 100px;
+  display: grid;
+  grid-gap: 5px;
+  border: solid 1px rebeccapurple;
+}
 aside{
   border: solid 1px black;
   margin-top: 5px;
