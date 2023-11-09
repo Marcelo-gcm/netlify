@@ -4,18 +4,19 @@
   box-sizing: border-box;
 }
 body{
-  background: rebeccapurple;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header{
-  background: #262626;
+  background: #EDEDED;
 }
 a{
   text-decoration: none;
-  color: #fff;
+  color: #8C908B;
   transition: 0.3s ease-out;
 }
 .nav-link:hover{
-  color: red;
+  color: #0095D9;
 }
 li{
   list-style: none;
@@ -33,9 +34,13 @@ li{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  margin-right: 20px;
   -webkit-transition: all 0.3s ease-in-out; 
   transition: all 0.3s ease-in-out; 
+}
+
+.nav-item{
+  margin-left:20px;
 }
 
 .hamburger{
@@ -76,7 +81,7 @@ li{
     flex-direction: column;
     padding: 5px;
     top: 70px;
-    background: #262626;
+    background: #EDEDED;
     left:-100%;
     transition: 0.3s ease-in-out;
   }
